@@ -1,0 +1,13 @@
+This unit test is going to test an application to book a dog walker 
+
+no idea if this is what you mean but ......
+
+If booking received for dog A
+  check dogwalk list
+  if dogwalk list contains 'A' 
+      test passed
+  otherwise
+       test failed
+
+  end if
+end -if 
