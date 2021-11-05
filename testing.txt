@@ -29,6 +29,21 @@ similar to the above I think but the system test to test the service to book a d
 2) the user would run the dogWalkList.output() service to write out which dogs are on the dog walk list
 3) If the dog walk list contains dog 'A' then the system test has passed
 
+For Acceptance Testing....
+
+The test scenario would be: 
+As a client I want to use the Dog Walk booking service so that I can book a walk for my dog on a certain date
+
+Given - The client is on the booking page
+When - the client selects a date/time slot that has an empty space
+Then - the client should be taken to a booking confirmation page which displays a message confirming their dog walk is booked
+
+Given - The client is on the booking page
+When - the client selects a date/time slot that is already full
+Then - A message should appear to say that there is no space in that slot and prompt the client to choose an alternative slot
+
+
+
 
 
 
