@@ -10,4 +10,15 @@ If booking received for dog A
        test failed
 
   end if
-end -if 
+end -if
+
+For integration testing the different tests would be.....
+ 
+1) the owner would book the dogwalk by adding their dog 'A' using service dogWalk.book() 
+2) the service to read the dogwalk list database would be run dogWalkList.read() 
+3) the dogwalker would check the dogWalk list to see what dogs were booked dogWalkList.output() 
+
+Each of these would be tested as separate unit tests but would be integrated to check dogWalk.book() sent the details of dog 'A' to the dogWalkList database.  
+Tests would be run to check the dogWalkList database includes dog 'A'
+
+ 
